@@ -1,0 +1,32 @@
+#left_panel {
+	position: absolute;
+	left: -90px;
+	width: 100px;
+	height: 80.7%;
+	border: solid 2px;
+	border-color: #33FFFF;
+	top: 10%;
+	transition: left .3s linear;
+	border-radius: 15px;
+}
+
+#left_panel:hover {
+	left: 0px;
+}
+
+.panel {border: none;transition: .3s; width: 100%; height: 100%}
+.panel:hover {cursor:pointer;filter:hue-rotate(274deg); width: 105%; height: 105%}
+
+#vk {position: absolute;top: 1%;left: 19px;}
+#whatsapp {position: absolute;top: 19.6%;left: 19%;}
+#youtube {position: absolute;top: 37.2%;left: 19%;}
+#gmail {position: absolute;top: 51.8%;left: 19%;}
+#telegram {position: absolute;top: 68.4%;left: 19%;}
+#discord {position: absolute;top: 87%;left: 19%;}
+
+/*  pan_width = 100px
+	pan_heig = 80%
+	img_wid = 64px
+	wimg_heig = 64px
+	
+	14

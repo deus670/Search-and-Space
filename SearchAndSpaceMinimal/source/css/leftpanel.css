@@ -1,0 +1,26 @@
+#left_panel {
+	position: absolute;
+	left: -90px;
+	width: 100px;
+	height: 80.7%;
+	background: none;
+	border: solid 2px;
+	border-color: #33FFFF;
+	top: 10%;
+	transition: left .3s linear;
+	border-radius: 15px;
+}
+
+#left_panel:hover {
+	left: 0px;
+}
+
+.panel {border: none;transition: .3s;background-color: white;width: 64px;height: 64px;}
+.panel:hover {cursor:pointer;filter:hue-rotate(274deg) ;}
+
+#vk {background: url("../img/button/vk.svg");position: absolute;top: 1.5%;left: 19%;}
+#whatsapp {background: url("../img/button/wapp.svg");position: absolute;top: 19%;left: 19%;}
+#youtube {background: url("../img/button/youtube.svg");position: absolute;top: 35%;left: 19%;}
+#gmail {background: url("../img/button/gmail.svg");position: absolute;top: 50%;left: 19%;}
+#telegram {background: url("../img/button/discord.svg");position: absolute;top: 67%;left: 19%;}
+#discord {background: url("../img/button/telegram.svg");position: absolute;top: 86%;left: 19%;}

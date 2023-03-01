@@ -1,0 +1,26 @@
+.logotype3, .logotype3:hover {-ms-user-select: none;-moz-user-select: none;-khtml-user-select: none;-webkit-user-select: none;display: inline-block;font-size: 15px;line-height :50px;color: #FFF;font-family: 'Roboto', sans-serif;text-decoration:none;position: absolute;top: 80%;right: 4%;}
+.logotype3 b {color: #a8e4a0;font-size: 36px;}
+.logotype3 div {font-size: 24px;line-height:20px;text-align:left;color: #FFF;transition: all 0.3s ease-in-out;transform: translateX(0);}
+.logotype3:hover div {left: 100%;transform: translateX(45px);}
+.logotype3:hover {animation: blur1 1s ease-out;cursor: default;}
+.logotype3:hover b {animation: blur2 1s ease-out;}
+@keyframes blur1 {
+    from {
+        text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff;
+    }
+}
+@keyframes blur2 {
+    from {color: #222222;}}
+@media (max-width:600px) {
+    .logotype3, .logotype3:hover {font-size: 40px;line-height: 40px;}
+    .logotype3 b {font-size: 48px;}
+    .logotype3 div {font-size: 18px;}}

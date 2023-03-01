@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+	background: url("../img/background/background5.jpg");
+	background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+	width: 100%;
+	height: 500px;
+}
+
+#shar {position: absolute;top: 43%;left: 20%;}
+
+#ksmv {position: absolute;top: 65%;left: 42%;}
+
+#star {position: absolute;top: 44.5%;left: 8%; height:45%; width:auto; margin: auto;transition: .3s}
+#star-hw{width: 150%;height: 150%;}
+
+#bar_clock{
+	height: 15%;
+	width: 100px;
+	position: absolute;
+	right: 2%;
+	top: 4%;
+}
+
+#id_clock {
+	text-align: right;
+	color:#33FFFF;
+	font-size:14pt;
+	background: rgba(0,0,0,0.5);;
+	padding:5px 20px;
+	border: none;
+	transition: 1s;
+}
+
+#id_clock:hover {
+	color: #116062;
+	webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}

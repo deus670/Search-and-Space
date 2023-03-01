@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>S&S</title>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" href="source/css/style.css">
+	<link rel="stylesheet" href="source/css/leftpanel.css">
+	<link rel="stylesheet" href="source/css/bar_search.css">
+	<link rel="stylesheet" href="source/css/logotype.css">
+	<link rel="stylesheet" href="source/css/varstyle.css">
+	<script src="source/javascript/java.js"></script>
+	<script src="source/javascript/time.js"></script>
+</head>
+<body>
+    <div id="bar_clock">
+		<div id="id_clock"></div>
+		<script>digitalClock();</script>
+		<form action="../SearchAndSpaceMinimal/Search.html">
+    		<input class="stylebtn" type="submit" value="Min Style" />
+		</form>
+	</div>
+
+		
+
+	<div id="content">
+		<div id="left_panel">
+			<div id="vk" onclick=Vk()><img class="panel" src="source/img/button/vk.svg" width="100%" height="100%"></div>
+			<div id="whatsapp" onclick=Whatsapp()><img class="panel" src="source/img/button/wapp.svg" width="100%" height="100%"></div>
+			<div id="youtube" onclick=Youtube()><img class="panel" src="source/img/button/youtube.svg" width="100%" height="100%"></div>
+			<div id="gmail" onclick=Gmail()><img class="panel" src="source/img/button/gmail.svg" width="100%" height="100%"></div>
+			<div id="telegram" onclick=Telegram()><img class="panel" src="source/img/button/telegram.svg" width="100%" height="100%"></div>
+			<div id="discord" onclick=Discord()><img class="panel" src="source/img/button/discord.svg" width="100%" height="100%"></div>
+		</div>
+		<div id="bar_shearch">
+			<form onsubmit="Search() ">
+				<input autofocus name="search" placeholder="Введите запрос" value="" pattern=".*\S.*" id="input_text" required>
+			</form>
+			<button type='text' id="clean" onclick=Clean()><b>X</b></button>
+			<div class="wrap">
+  				<button class="button" onclick="Search()">Поиск</button>
+			</div>
+			
+			<img class='spin' id="shar" src="source/img/background/background5.svg" height=70%, width=auto>
+			<img  id="ksmv" src="source/img/background/ksmv.svg" height=23%, width=auto>
+			<div id='star'>
+  				<svg id='star-hw' viewbox="0 0 200 200">
+  					<g id="star-stroke" transform="translate(10 10)">
+  		  				<polygon
+  		    				stroke="steelblue" stroke-width="1.5"
+  		    				fill="none"
+  		    				stroke-dasharray="5% 500%"
+  		  					points="87.9999978 137.940241 76.5136936 175.247148 75.074515 136.238569 54.3238608 169.3014 63.029877 131.249516 34.428992 157.815092 52.6869168 123.313083 18.1849071 141.571007 44.7504839 112.970122 6.69860358 121.676148 39.7614329 100.92549 0.752853633 99.4863158 38.0597591 87.9999956 0.752852903 76.5136897 39.761432 75.0745129 6.69860144 54.3238572 44.7504823 63.0298803 18.1849037 34.4289973 52.6869146 52.6869195 34.4289876 18.1849112 63.0298846 44.7504798 54.3238847 6.69859007 75.0745176 39.7614308 76.5137192 0.752849023 88.0000006 38.0597591 99.4863245 0.752854774 100.925484 39.7614311 121.676156 6.69860693 112.970137 44.7504923 141.571047 18.184938 123.313095 52.6869288 157.815123 34.4290322 131.249524 63.0298917 169.301415 54.3238979 136.238571 75.0745255 175.247153 76.5137334 137.940241 88.0000087 175.247143 99.4863387 136.238567 100.925491 169.301388 121.676169 131.249516 112.970123 157.815079 141.571025 123.313065 123.3131 141.570956 157.815132 112.970101 131.249528 121.676089 169.301421 100.925467 136.238573 99.4862524 175.247155 ">
+      						<animate attributeName="stroke-dasharray" attributeType="CSS"
+      						       from="0% 10%" to="50% 0%"
+      						       begin="0s" dur="20s" 
+      						       repeatDur ="indefinite" />
+      						<animate attributeName="stroke-dasharray" attributeType="CSS"
+      						       from="50% 0%" to="0% 10%"
+      						       begin="0s" dur="20s" />
+      						<animate attributeName="stroke" attributeType="CSS"
+      						       from="crimson" to="steelblue"
+      						       begin="0s" dur="20s" />
+      						<animate attributeName="stroke" attributeType="CSS"
+      						       from="steelblue" to="crimson"
+      						       begin="20s" dur="20s" />
+    					</polygon>
+  					</g>  
+				</svg>
+			</div>
+		</div>
+	</div>
+	
+	<a class="logotype3">                        
+    	<b>S&S</b>Search&Space
+    	<div>DeuXsCode</div>
+	</a>
+	
+</body>
+</html>

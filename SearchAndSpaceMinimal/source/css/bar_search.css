@@ -1,0 +1,81 @@
+#bar_shearch {
+	position: relative;
+	top: 25%;
+	height: 370px;
+	width: 450px;
+	left: 35%;
+}
+
+#input_text {
+	position: absolute;
+	font-size: 17;
+	right: 4px;
+	background-color: #CCCCCC;
+	border: none;
+	height: 25px;
+	width: 450px;
+	border-radius: 30px;
+	transition: .7s;
+}
+
+#input_text:hover {
+	color: black;
+	outline: none;
+	background-color: white;
+	transition: .7s;
+}
+#input_text:focus {
+	color: black;
+	outline: none;
+	background-color: white;
+	transition: .7s;
+}
+
+#clean {position: absolute;
+	outline: none;
+	left: 93.5%;
+	top: 2px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+}
+#clean:hover {
+	cursor: pointer;
+}
+
+.wrap {position: absolute;height: 30%;top: 15px;left: 40%;display: flex;align-items: center;justify-content: center;}
+.button {min-width: 10px;min-height: 30px;font-family: 'Nunito', sans-serif;font-size: 13px;text-transform: uppercase;letter-spacing: 1.3px;font-weight: 100;color: #313133;background: #4FD1C5;background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);border: none;border-radius: 1000px;
+  transition: all 0.3s ease-in-out 0s;cursor: pointer;outline: none;padding: 10px;
+  background-image: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);background-position: 100% 0;background-size: 200% 200%;font-family: 'Montserrat', sans-serif;color: white;box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);position: absolute;left: 26%;transition: .5s;border: no}
+.button::before {content: '';border-radius: 1000px;min-width: calc(100px + 12px);min-height: calc(40px + 12px);border: 6px solid #00FFCB;
+position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);opacity: 0;transition: all .3s ease-in-out 0s;}
+.button:hover, .button:focus {ox-shadow: 0 0 0 0 rgba(0, 40, 120, 0);background-position: 0 0;cursor: pointer;}
+.button::after {content: '';width: 30px; height: 30px;border-radius: 100%;border: 6px solid #00FFCB;position: absolute;z-index: -1;top: 50%;left: 50%;transform: translate(-50%, -50%);animation: ring 1.5s infinite;}
+.button:hover::after, .button:focus::after {animation: none;display: none;}
+@keyframes ring {
+  0% {width: 11px;height: 11px;opacity: 1;}
+  100% {width: 90px;height: 70px;opacity: 0;}}
+
+.spin {
+	-webkit-animation: rotating 2s linear infinite;
+	-moz-animation: rotating 2s linear infinite;
+	-ms-animation: rotating 2s linear infinite;
+	-o-animation: rotating 2s linear infinite;
+	animation: rotating 2s linear infinite;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;}
+
+@-webkit-keyframes spin /* Safari and Chrome */ {
+	from {-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
+	to {-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}}
+@keyframes rotating {
+	from {-ms-transform: rotate(0deg);-moz-transform: rotate(0deg);-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
+	to {-ms-transform: rotate(360deg);-moz-transform: rotate(360deg);-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}}
+
+

@@ -1,0 +1,28 @@
+.stylebtn {
+  min-width: 10px;
+  min-height: 35px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  transition: background-color 0.2s linear, color 0.2s linear, box-shadow 0.2s linear;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  background-color: #000000;
+  border-color: #505050;
+
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.stylebtn:focus {
+  outline: none;
+}
+
+.stylebtn:hover {
+  border-color: #CCCCCC;
+  outline: none;
+  background-color: whitesmoke;
+  border-style: 2px 2px 10px fade(#000, 24%);
+  color: black;
+}
